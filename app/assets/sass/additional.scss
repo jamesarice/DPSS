@@ -82,6 +82,48 @@ fieldset {
 	max-width: 13em;
 }
 
+.licence-photo {
+	width: 210px;
+	height: 270px;
+}
+
+fieldset.upload {
+	div#enter-code {
+		display: none;
+	}
+	label[for="radio-1"] > input {
+		z-index: 1;
+	}
+	input[type="radio"]#radio-1:checked ~ div#enter-code {
+		display: block;
+	}
+	div#enter-code {
+		background: white;
+		margin-top: -2.3em;
+		padding-top: 2.95em;
+		padding-bottom: 1em;
+		z-index: 0;
+		margin-left: -2.35em;
+		padding-left: 2.35em;
+		width: 100%;
+		padding-right: 1.6em;
+		margin-bottom: -0.8em;
+		fieldset {
+			 border-left: 4px solid #bfc1c3;
+			 margin-left: -2.35em;
+			 padding-left: 0.8em;
+			input {
+				position: relative;
+				left: 0;
+				top: 0;
+			}
+		}
+	}
+	.form-hint {
+		font-size: 0.8em;
+	}
+}
+
 .related {
 	 margin-top: 24px;
 	.header-bar {
