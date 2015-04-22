@@ -32,6 +32,18 @@
 	}
 }
 
+@media (min-width: 769px) {
+	.button-group {
+		position: relative;
+		.pull-right {
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		
+	}
+}
+
 .heading-xlarge {
 	margin-bottom: 0.9375em;
 }
