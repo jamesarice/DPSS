@@ -1,0 +1,99 @@
+#global-breadcrumb {
+	background-color: #fff;
+	max-width: 1020px;
+	margin: 0 auto;
+	z-index: 50;
+	ol {
+		max-width: 960px;
+		margin: 0 30px;
+		padding: 0.75em 0;
+		li {
+			font-family: "nta",Arial,sans-serif;
+			font-size: 16px;
+			line-height: 1.25;
+			font-weight: 400;
+			text-transform: none;
+			background-image: url(https://assets.digital.cabinet-office.gov.uk/static/separator-cdeb08166e771d0c630c018110044965.png);
+			background-position: 100% 50%;
+			background-repeat: no-repeat;
+			float: left;
+			list-style: none;
+			margin-left: 0;
+			margin-right: 0.5em;
+			margin-bottom: 0.4em;
+			padding-right: 1em;
+			&:last-child {
+				background-image: none;
+			}
+			a {
+				color: #0b0c0c;
+			}
+		}
+	}
+}
+
+.heading-xlarge {
+	margin-bottom: 0.9375em;
+}
+
+.button-get-started {
+	margin-bottom: 0;
+}
+
+.destination {
+	font-family: "nta",Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857;
+	font-weight: 400;
+	text-transform: none;
+	color: #0b0c0c;
+	display: block;
+	margin-top: 0.5em;
+	max-width: 13em;
+}
+
+.related {
+	 margin-top: 24px;
+	.header-bar {
+		border-top: 10px solid #005ea5;
+  		padding-top: 5px;
+	}
+	h2 {
+		font-family: "nta",Arial,sans-serif;
+		font-size: 24px;
+		line-height: 1.25;
+		font-weight: 400;
+		text-transform: none;
+		font-weight: 600;
+		color: #0b0c0c;
+		margin-top: 0.3em;
+		margin-bottom: 0.5em;
+		position: relative;
+	}
+	ul {
+		font-family: "nta",Arial,sans-serif;
+		font-size: 16px;
+		line-height: 1.25;
+		font-weight: 400;
+		text-transform: none;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		li {
+			margin-bottom: 0.75em;
+ 			padding-left: 0;
+ 			&.related-topic {
+ 				display: inline;
+				font-weight: bold;
+ 			}
+ 			a {
+				background-position: 0 -287px;
+				background-repeat: no-repeat;
+				display: block;
+				line-height: 1.25em;
+				orphans: 2;
+ 			}
+		}
+	}
+}
