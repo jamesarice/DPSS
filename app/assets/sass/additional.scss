@@ -22,8 +22,16 @@
 			margin-right: 0.5em;
 			margin-bottom: 0.4em;
 			padding-right: 1em;
-			&:last-child {
+			&.last-breadcrumb,
+			&:last-child,
+			&.sign-out {
 				background-image: none;
+			}
+			&.sign-out {
+				float: right;
+				a {
+					color: #0076c0;
+				}
 			}
 			a {
 				color: #0b0c0c;
@@ -41,6 +49,16 @@
 			top: 0;
 		}
 		
+	}
+}
+
+fieldset {
+	margin-bottom: 1em;
+}
+
+@media (min-width: 641px) {
+	.form-control {
+		margin-right: 50%;
 	}
 }
 
