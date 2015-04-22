@@ -1,0 +1,56 @@
+{{<layout}}
+
+{{$pageTitle}}
+	Payment
+{{/pageTitle}}
+
+{{$content}}
+
+
+<div id="global-breadcrumb" class="header-context">
+    <ol role="breadcrumbs" class="group">
+		<li><a href="#">Home</a></li>
+    	<li><a href="#">Driving and transport</a></li>
+		<li class="last-breadcrumb"><a href="#">Driving licences</a></strong></li>
+		<li class="sign-out"><a href="#">Sign out</a></li>
+	</ol>
+</div>
+
+<main id="content" role="main">
+	<h1 class="heading-xlarge">Payment</h1>
+	<h2 class="heading-large">Renew the photo on your licence</h2>
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			<h3 class="heading-medium">Enter card details</h3>
+			<h4 class="heading-small">Amount payable: £00.00</h4>
+			<fieldset id="payment">
+				<label class="form-label" for="card-number">Card number</label>
+				<input class="form-control" id="card-number" type="text">
+				<label class="form-label" for="card-expiry">Expiry date</label>
+				<input class="form-control" id="card-expiry" type="month">
+				<label class="form-label" for="security-code">Security code</label>
+				<input class="form-control" id="security-code" type="text">
+				<label class="form-label" for="valid-from">Valid from date <span class="form-hint">(for Visa, Mastercard and Delta cards only)</span></label>
+				<input class="form-control" id="valid-from" type="month">
+			</fieldset>
+			<p>
+				You will not be charged until you have confirmed your answers and clicked the 'Pay now' button on the next page. 
+			</p>
+
+			<div class="panel-indent">
+				<p>
+					Please note: Once your licence has been issued the payment cannot be refunded. Do not click the previous/next button more than once. 
+				</p>
+			</div>
+			<p>
+				<a class="button" href="declaration">Next</a>
+			</p>
+		</div>
+		<div class="column-third">
+		</div>
+	</div>
+</main>
+
+{{/content}}
+
+{{/layout}}

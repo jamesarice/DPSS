@@ -87,6 +87,24 @@ fieldset {
 	height: 270px;
 }
 
+fieldset#payment {
+	margin-top: 1em;
+	input {
+		margin-bottom: 1em;
+	}
+	span.form-hint {
+		display: inline-block;
+	}
+	#security-code {
+		width: 4em;
+		max-width: 4em;
+	}
+	#card-expiry,
+	#valid-from {
+		width: 8em;
+	}
+}
+
 fieldset.upload {
 	div#enter-code {
 		display: none;
