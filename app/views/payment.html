@@ -24,14 +24,17 @@
 			<h3 class="heading-medium">Enter card details</h3>
 			<h4 class="heading-small">Amount payable: £00.00</h4>
 			<fieldset id="payment">
-				<label class="form-label" for="card-number">Card number</label>
-				<input class="form-control" id="card-number" type="text">
-				<label class="form-label" for="card-expiry">Expiry date</label>
-				<input class="form-control" id="card-expiry" type="month">
-				<label class="form-label" for="security-code">Security code</label>
-				<input class="form-control" id="security-code" type="text">
-				<label class="form-label" for="valid-from">Valid from date <span class="form-hint">(for Visa, Mastercard and Delta cards only)</span></label>
-				<input class="form-control" id="valid-from" type="month">
+        <form action="declaration">
+  				<label class="form-label" for="card-number">Card number</label>
+  				<input class="form-control" id="card-number" type="number" required>
+  				<label class="form-label" for="card-expiry">Expiry date</label>
+  				<input class="form-control" id="card-expiry" type="month" required>
+  				<label class="form-label" for="security-code">Security code</label>
+  				<input class="form-control" id="security-code" type="number" required>
+  				<label class="form-label" for="valid-from">Valid from date <span class="form-hint">(for Visa, Mastercard and Delta cards only)</span></label>
+  				<input class="form-control" id="valid-from" type="month" required>
+          <input class="button" type="submit" value="Next" />
+        </form>
 			</fieldset>
 			<p>
 				You will not be charged until you have confirmed your answers and clicked the 'Pay now' button on the next page. 
@@ -42,9 +45,7 @@
 					Please note: Once your licence has been issued the payment cannot be refunded. Do not click the previous/next button more than once. 
 				</p>
 			</div>
-			<p>
-				<a class="button" href="declaration">Next</a>
-			</p>
+
 		</div>
 		<div class="column-third">
 		</div>

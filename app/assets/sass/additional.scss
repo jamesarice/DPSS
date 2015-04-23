@@ -51,6 +51,23 @@
 	}
 }
 
+em.highlight {
+	font-style: normal;
+	color: #0076c0;
+}
+
+input#licence-number,
+input#photo-code {
+	text-transform: uppercase;
+}
+
+input.button {
+	margin: 10px 15px 15px 0;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
 div#before-other {
 	margin-top: 2em;
 	position: relative;
@@ -73,6 +90,9 @@ div#before-other {
 		border-top: solid 1px #bfc1c3;
 		clear: both;
 		width: auto;
+		&#other-ways-to-apply-section > h2.heading-medium:first-of-type {
+			margin-top: 0.6em;
+		}
 	}
 
 	input#before-you-start:checked ~ div#before-you-start-section,
@@ -397,10 +417,17 @@ footer#footer2 {
 }
 
 @media (min-width: 641px) {
-	#footer2 .footer-categories ul {
-	  float: left;
-	  margin: 15px 0 0 0;
-	  width: 50%;
+	#footer2 .footer-categories {
+		ul {
+	  		float: left;
+	  		margin: 15px 0 0 0;
+	  		width: 50%;
+	  	}
+	  	.footer-inside-government {
+		  	ul {
+		  		width: 100%;
+		  	}
+	  	}
 	}
 }
 
@@ -584,10 +611,3 @@ footer#footer2 {
 	  text-align: right;
 	}
 }
-
-
-
-
-
-
-

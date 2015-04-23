@@ -28,12 +28,14 @@
 			</p>
 			<fieldset>
 				<div class="form-group">
-					<label class="form-label" for="ni-number">
+        <form action="view-licence-details">
+					<label class="form-label" for="licence-number">
 					<h4 class="heading-small">Driving licence number</h4>
 					    <span class="form-hint">(5 on your photocard licence)</span>
 					</label>
-					<input class="form-control" id="ni-number" type="text">
-  				<p><a href="view-licence-details" class="button" role="button">Continue</a></p>
+					<input class="form-control" id="licence-number" type="text" name="licence" required>
+          <input class="button" type="submit" value="Continue" />
+          </form>
         </div>
 			</fieldset>
 			<p>

@@ -20,9 +20,11 @@
 	<div class="grid-row">
 		<div class="column-two-thirds">
 			<h1 class="heading-xlarge">Find a photographer</h1>
-			<label class="form-label" for="postcode-lookup">Find a registered photographer near you</label>
-			<input class="form-control" id="postcode-lookup" placeholder="Your town or postcode" type="text">
-			<p><a href="lookup-results" class="button">Enter</a></p>
+      <form action="lookup-results">
+  			<label class="form-label" for="postcode-lookup">Find a registered photographer near you</label>
+  			<input class="form-control" id="postcode-lookup" placeholder="Your town or postcode" type="text" required>
+        <input class="button" type="submit" value="Enter" />
+      </form>
 		</div>
 		<div class="column-third">
 		</div>
