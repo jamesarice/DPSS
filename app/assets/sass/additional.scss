@@ -48,7 +48,94 @@
 			right: 0;
 			top: 0;
 		}
-		
+	}
+}
+
+div#before-other {
+	margin-top: 2em;
+	position: relative;
+	overflow: hidden;
+	div#before-you-start-section,
+	div#other-ways-to-apply-section,
+	input#before-you-start,
+	input#other-ways-to-apply {
+		display: none;
+	}
+	
+	div.tab-area {
+		padding-top: 1em;
+		padding: 1em 1em 0 1em;
+		border-top: solid 1px #bfc1c3;
+		clear: both;
+		width: auto;
+	}
+
+	input#before-you-start:checked ~ div#before-you-start-section,
+	input#other-ways-to-apply:checked ~ div#other-ways-to-apply-section {
+		display: block;
+	}
+	
+	label[for="before-you-start"],
+	label[for="other-ways-to-apply"] {
+		font-size: 16px;
+  		text-transform: none;
+		height: 2.25em;
+		line-height: 2.25em;
+		margin-bottom: -1px;
+		padding: 0.1em 1em 0.1em 0.5em;
+		position: relative;
+		text-align: center;
+		border: solid 1px transparent;
+		margin-top: 2em;
+		display: inline-block;
+		text-decoration: underline;
+		color: #005ea5;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	input#before-you-start:checked ~ label[for="before-you-start"],
+	input#other-ways-to-apply:checked ~ label[for="other-ways-to-apply"] {
+		background-color: #fff;
+		border: solid 1px #bfc1c3;
+		border-bottom: solid 1px #fff;
+		color: #0b0c0c;
+		position: relative;
+		text-decoration: none;
+		z-index: 5;
+	}
+	.application-notice {
+		 padding: 0.1em 0 0.1em 1em;
+	}
+	.help-notice {
+		background: url(https://assets.digital.cabinet-office.gov.uk/static/icon-important-132af33c6e868e9f8702ce2f968e3a03.png) no-repeat scroll 0 0.5em;
+		p {
+			font-weight: 600;
+			padding: 0 1em 0 2em;
+		}
+	}
+	.info-notice {
+	  background: none;
+	  border-left: 10px solid #bfc1c3;
+	  margin-bottom: 1em;
+	  p {
+	  	margin-bottom: 0.6em;
+	  }
+	}
+	ul {
+		padding-left: 1em;
+		list-style-type: circle;
+  		list-style-image: url(https://assets.digital.cabinet-office.gov.uk/static/bullet-disc-5px-004b50c23e288accb7f1811a46968402.gif);
+	}
+	li {
+		font-family: "nta",Arial,sans-serif;
+		font-size: 19px;
+		line-height: 1.31579;
+		font-weight: 400;
+		text-transform: none;
+		margin: 0.25em 0;
+		padding-left: 0.3em;
 	}
 }
 
