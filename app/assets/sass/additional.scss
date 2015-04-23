@@ -142,6 +142,36 @@ fieldset.upload {
 	}
 }
 
+ol.transfer-steps {
+	strong {
+		font-weight: bold;
+	}
+}
+
+section.result {
+	overflow: hidden;
+	margin-bottom: 2em;
+	> div {
+		overflow: hidden;
+		background: #dee0e2;
+		padding: 1em;
+		address {
+			font-style: normal;
+			span {
+				display: block;
+			}
+			float: left;
+			a {
+				margin-top: 1em;
+				display: inline-block;
+			}
+		}
+		img.map {
+			float: right;
+		}
+	}
+}
+
 .related {
 	 margin-top: 24px;
 	.header-bar {
@@ -186,4 +216,98 @@ fieldset.upload {
  			}
 		}
 	}
+}
+
+footer#footer {
+	border-top: 10px solid #005ea5;
+}
+
+#footer .footer-categories .footer-explore h2, #footer .footer-categories .footer-inside-government h2 {
+  margin: 0 15px;
+  padding: 10px 0 0;
+}
+
+@media (min-width: 641px) {
+	#footer .footer-categories {
+	  padding: 0 15px 30px;
+	}
+}
+
+
+@media (min-width: 641px) {
+	#footer .footer-categories .footer-explore, #footer .footer-categories .footer-inside-government {
+	  float: left;
+	  width: 66.66%;
+	  padding-bottom: 60px;
+	}
+}
+
+@media (min-width: 641px) {
+	#footer .footer-categories .footer-explore, #footer .footer-categories .footer-inside-government {
+	  float: left;
+	  width: 66.66%;
+	  padding-bottom: 60px;
+	}
+}
+
+@media (min-width: 641px) {
+	#footer .footer-categories .footer-explore h2, #footer .footer-categories .footer-inside-government h2 {
+	  padding: 0 0 20px;
+	  border-bottom: 1px solid #bfc1c3;
+	}
+}
+
+#footer .footer-categories ul {
+  font-family: "nta",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 641px) {
+	#footer .footer-categories ul {
+	  float: left;
+	  margin: 15px 0 0 0;
+	  width: 50%;
+	}
+}
+
+#footer .footer-categories ul li {
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px 0 0;
+  margin: 0 15px 5px;
+}
+
+@media (min-width: 641px) {
+	#footer .footer-categories ul li {
+	  padding: 20px 0 0;
+	  margin: 0 15px;
+	}
+}
+
+
+@media (min-width: 641px) {
+	#footer .footer-categories .footer-explore, #footer .footer-categories .footer-inside-government {
+	  float: left;
+	  width: 66.66%;
+	  padding-bottom: 60px;
+	}
+}
+@media (min-width: 641px) {
+	#footer .footer-categories .footer-inside-government {
+	  float: left;
+	  width: 33.33%;
+	}
+}
+
+#footer .footer-categories hr {
+  clear: both;
+  margin: 0 15px 30px;
+  border: 1px solid #bfc1c3;
+  border-width: 1px 0 0 0;
 }

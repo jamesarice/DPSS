@@ -1,7 +1,7 @@
 {{<layout}}
 
 {{$pageTitle}}
-	View your driving licence
+	Find a photographer
 {{/pageTitle}}
 
 {{$content}}
@@ -17,20 +17,12 @@
 </div>
 
 <main id="content" role="main">
-	<h1 class="heading-xlarge">Renew your driving licence photo</h1>
-
 	<div class="grid-row">
 		<div class="column-two-thirds">
-			<img class="licence-photo" src="/public/images/placeholder-new-photo.jpg" alt="Your licence photo">
-			<p>
-				<a href="payment" class="button">Use this photo</a>
-			</p>
-			<p>
-				<a href="upload-your-photo">Cancel</a>
-			</p>
-			<p>
-				<a href="upload-your-photo">No, this is not an image of me or I don’t want to use this image</a>
-			</p>
+			<h1 class="heading-xlarge">Find a photographer</h1>
+			<label class="form-label" for="postcode-lookup">Find a registered photographer near you</label>
+			<input class="form-control" id="postcode-lookup" placeholder="Your town or postcode" type="text">
+			<p><a href="lookup-results" class="button">Enter</a></p>
 		</div>
 		<div class="column-third">
 		</div>
