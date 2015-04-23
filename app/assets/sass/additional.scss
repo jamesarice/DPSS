@@ -331,6 +331,30 @@ section.result {
 	}
 }
 
+
+table {
+	thead {
+		tr {
+			th {
+				font-size: 24px;
+			}
+		}
+	}
+	tbody {
+		tr {
+			td:first-of-type {
+				@media (min-width: 641px) {
+					width: 12em;
+				}
+			}
+			td:last-of-type {
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+
 footer#footer {
 	display: none;
 }
