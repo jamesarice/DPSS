@@ -55,6 +55,11 @@ div#before-other {
 	margin-top: 2em;
 	position: relative;
 	overflow: hidden;
+
+	strong {
+		font-weight: bold;
+	}
+
 	div#before-you-start-section,
 	div#other-ways-to-apply-section,
 	input#before-you-start,
@@ -125,6 +130,7 @@ div#before-other {
 	}
 	ul {
 		padding-left: 1em;
+		margin-bottom: 2em;
 		list-style-type: circle;
   		list-style-image: url(https://assets.digital.cabinet-office.gov.uk/static/bullet-disc-5px-004b50c23e288accb7f1811a46968402.gif);
 	}
