@@ -80,6 +80,10 @@ input#security-code {
 	text-transform: uppercase;
 }
 
+#photo-code  {
+	width: 10em;
+}
+
 input.button {
 	margin: 10px 15px 15px 0;
 	&:hover {
