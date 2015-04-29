@@ -40,6 +40,15 @@
 	}
 }
 
+.expires {
+	color: $red;
+	a {
+		margin: 0;
+		display: inline;
+		margin-left: 1em;
+	}
+}
+
 @media (min-width: 769px) {
 	.button-group {
 		position: relative;
