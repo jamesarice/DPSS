@@ -276,9 +276,11 @@ fieldset#payment {
 		width: 4em;
 		max-width: 4em;
 	}
-	#card-expiry,
-	#valid-from {
-		width: 8em;
+	input.card-date {
+		width: 2.2em;
+		display: inline;
+		margin: auto;
+		text-transform: uppercase;
 	}
 }
 
