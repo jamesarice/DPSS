@@ -63,6 +63,22 @@
 	}
 }
 
+ul.declare-list {
+	padding-left: 1em;
+	margin-bottom: 2em;
+	list-style-type: circle;
+		list-style-image: url(https://assets.digital.cabinet-office.gov.uk/static/bullet-disc-5px-004b50c23e288accb7f1811a46968402.gif);
+	li {
+		font-family: "nta",Arial,sans-serif;
+		font-size: 19px;
+		line-height: 1.31579;
+		font-weight: 400;
+		text-transform: none;
+		margin: 0.25em 0;
+		padding-left: 0.3em;
+	}
+}
+
 .payment-success {
 	max-width: 30em;
 }
@@ -197,6 +213,9 @@ div.tabbed-area {
 		text-transform: none;
 		margin: 0.25em 0;
 		padding-left: 0.3em;
+		ul {
+			margin-bottom: 0;
+		}
 	}
 
 	&.your-licence-tabs {
@@ -287,6 +306,7 @@ fieldset#payment {
 	}
 }
 
+
 fieldset.upload {
 	div#enter-code {
 		display: none;
@@ -299,8 +319,8 @@ fieldset.upload {
 	}
 	div#enter-code {
 		background: white;
-		margin-top: -2.3em;
-		padding-top: 2.95em;
+		margin-top: -3.6em;
+		padding-top: 4.95em;
 		padding-bottom: 1em;
 		z-index: 0;
 		margin-left: -2.35em;
