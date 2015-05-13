@@ -1,7 +1,7 @@
 {{<layout}}
 
 {{$pageTitle}}
-	Transfer a photograph from a registered photographer - GOV.UK
+	Find a photographer - GOV.UK
 {{/pageTitle}}
 
 {{$content}}
@@ -18,23 +18,12 @@
 <main id="content" role="main">
 	<div class="grid-row">
 		<div class="column-two-thirds">
-			<h1 class="heading-xlarge">Getting a photo code</h1>
-			<h2 class="heading-large">In 4 steps</h2>
-      <ol class="list-number transfer-steps">
-        <li>
-          <strong>Find a approved ID photo shop or photo booth.</strong> Use our handy look-up tool in the next step and plan your visit.
-        </li>
-        <li>
-          <strong>Have your photo taken to passport standard. </strong>
-        </li>
-        <li>
-          <strong>Choose to have your photo sent direct to DVLA and you'll be given a photo code.</strong>
-        </li>
-        <li>
-          <strong>Come back to this website and sign in.</strong> Enter the 9 character code and your photo will be automatically added to your driving licence renewal.
-        </li>
-      </ol>
-			<a href="photographer-lookup-anon" class="button">Next</a>
+			<h1 class="heading-xlarge">Find your nearest approved ID photo shop or photo booth</h1>
+      <form action="lookup-results-anon">
+  			<label class="form-label" for="postcode-lookup">Enter your town or postcode eg SW12 3QU or Manchester</label>
+  			<input class="form-control" id="postcode-lookup" placeholder="Your town or postcode" type="text" required>
+        <input class="button" type="submit" value="Enter" />
+      </form>
 		</div>
 		<div class="column-third">
 		</div>
