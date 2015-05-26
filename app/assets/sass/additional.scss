@@ -351,8 +351,19 @@ ol.transfer-steps {
 }
 
 section.result {
-	overflow: hidden;
 	margin-bottom: 2em;
+	position: relative;
+	&:after {
+		content: url(/public/images/PMA-Approved-logo.jpg);
+		width: 100px;
+		height: 100px;
+		display: block;
+		position: absolute;
+		right: -100px;
+		top: 0;
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+	}
 	> div {
 		overflow: hidden;
 		background: #dee0e2;
